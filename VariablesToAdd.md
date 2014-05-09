@@ -7,7 +7,7 @@
 + chargedHadronEnergyFraction
 + muonEnergyFraction
 
-_The variables below are added, but some entries are HUGE (like ~10**20). Figure out what is going on!  One obvious explanation is there are cases of dividing by 0 (or something very close to zero), but this only makes sense for the ratios...why something like trackDeltaR?_
+_The variables below are added, but some entries are HUGE (like ~10<sup>20</sup>). Figure out what is going on!  One obvious explanation is there are cases of dividing by 0 (or something very close to zero), but this only makes sense for the ratios...why something like trackDeltaR?_
 + trackPtRel
 + trackEtaRel
 + trackDeltaR
