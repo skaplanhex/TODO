@@ -1,14 +1,3 @@
-### Variables with branches created but not filled in BTagAnalyzer
-
-+ trackPtRel
-+ trackEtaRel
-+ trackDeltaR
-+ trackPtRatio
-+ trackJetDist
-+ trackDecayLenVal
-+ trackSumJetEtRatio
-+ trackSumJetDeltaR
-
 ### Variables I added and were successfully written to the ntuple
 
 + trackSip2dSigAboveCharm
@@ -18,12 +7,22 @@
 + chargedHadronEnergyFraction
 + muonEnergyFraction
 
+_The variables below are added, but some entries are HUGE (like ~10**20). Figure out what is going on!  One obvious explanation is there are cases of dividing by 0 (or something very close to zero), but this only makes sense for the ratios...why something like trackDeltaR?_
++ trackPtRel
++ trackEtaRel
++ trackDeltaR
++ trackPtRatio
++ trackJetDist
++ trackDecayLenVal
++ trackSumJetEtRatio
++ trackSumJetDeltaR
+
+
 ### Variables I added but were NOT successfully written to the ntuple
 
-Both of these are failing the checkTag method...why?
+*Both of these are failing the checkTag method...why?*
 + trackSip3dValAboveCharm
 + trackSip2dValAboveCharm
-
 
 ### Variables already added before I began:
 
