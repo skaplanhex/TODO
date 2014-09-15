@@ -24,7 +24,7 @@
     + Cut on Sx in a range that contains the mustache (all tracks outside this range are for sure accidental)
         + Yes, this is arbitrary, BUT go far away from the mustache, cut outside this range, but also realize that there are accidentals inside of the mustache also.  Hopefully the accidentals are constant in Sx (i.e. Sx is a peak on top of a constant background, cut far from the peak to see how high the background is and extrapolate to get the accidentals throughout the whole range   
     + Cut on Sy' (i.e. the width of the mustache)
-        + **OPEN QUESTION: What criteria do we use to evaluate the cut value?**
+        + Yes, this is arbitrary, BUT go far away from the mustache, cut outside this range, but also realize that there are accidentals inside of the mustache also.  Hopefully the accidentals are constant in Sy' (i.e. Sy' is a broad bump on top of a constant background, cut far from the bump to see how high the background is and extrapolate to get the accidentals throughout the whole range 
 + ~~Set up code to be able to study 3-fold coincidence rate as a function of pileup~~
     + Make up own PU distribution to pick exactly the number you want (or find more elegant way to do this)
     + Alternatively: use PileupInfoSummary object (but low statistics for nPU far away from the mean)
