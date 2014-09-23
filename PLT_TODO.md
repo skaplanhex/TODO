@@ -12,6 +12,11 @@
     + Enact stricter definition of 3-fold coincidence, namely:
         + All 3 planes fired PLUS having a hit in ROC0 that points to the beamspot with some precision
     + Possibly repeat analysis for multiple beamspot scenarios and various definitions for what it means to 'point to the beamspot'
+    + **Fix the error bars on the 3 fold coincidence plots**
+    + **Plot 3 fold coincidence rate without cylinder constraint**
+    + **Plot 3 fold coincidence rate where ROC0 hit does NOT match to the cylinder**
+    + **Plot rMin going way out in r so that there is no overflow (with x-axis on log scale)**
+    + **For all 3 fold coincidence plots: Don't use L option when drawing, do linear fit instead!!!**
 + Make sure the alignment file makes sense
 + Fit mustache from muon gun to get handle on accidentals:
     + More specifically need to generate muons with energy distribution from minBias, not just flat
