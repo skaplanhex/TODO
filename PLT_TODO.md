@@ -14,11 +14,12 @@
     + Possibly repeat analysis for multiple beamspot scenarios and various definitions for what it means to 'point to the beamspot'
     + ~~**Fix the error bars on the 3 fold coincidence plots**~~
     + ~~**Plot 3 fold coincidence rate without cylinder constraint**~~
-    + **Plot 3 fold coincidence rate where ROC0 hit does NOT match to the cylinder**
-    + **Plot rMin going way out in r so that there is no overflow (with x-axis on log scale)**
+    + ~~**Plot 3 fold coincidence rate where ROC0 hit does NOT match to the cylinder**~~
+    + ~~**Plot rMin going way out in r so that there is no overflow (with x-axis on log scale)**~~
+        + Note: plotted zMin v. rMin, info is encapsulated in these plots 
     + ~~**For all 3 fold coincidence plots: Don't use L option when drawing, do linear fit instead!!!**~~
-    + **Plot |zMin| vs. rMin for all tracks for all p, low p (<1 GeV), and high p(>1 GeV)**
-        + **For each case, also plot the 3 fold coincidence rate vs. nInteractions**
+    + ~~**Plot |zMin| vs. rMin for all tracks for all p, low p (<1 GeV), and high p(>1 GeV)**~~
+        + ~~**For each case, also plot the 3 fold coincidence rate vs. nInteractions**~~
 + Make sure the alignment file makes sense
 + Fit mustache from muon gun to get handle on accidentals:
     + More specifically need to generate muons with energy distribution from minBias, not just flat
