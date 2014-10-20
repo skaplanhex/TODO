@@ -1,5 +1,16 @@
 ## PLT TODO LIST
 
++ Measure 3-fold rates where a track can be matched to the IP and also have a slope within the muon gun cuts
+    + Also check the case where matched to slope cuts and NOT matched to the IP 
+    + How to implement this
+        + Need to add clustering to PLTSimHitAnalyzer (PLTCluster class maybe)?
+            + Idea from JP: take the hottest pixel and just look in a cross shape for all neighboring pixels in that row/column.
+
++ Possibly move analysis code to a root macro instead of CMSSW framework to make things quicker? If there's time...
+
+#### Too lazy to update the stuff below, it's basically done or didn't need to be done.
+
+
 + ~~Generate muon gun events with all combinations of the following:~~
     + ~~pT in (0.5,5,50)~~
     + ~~eta in (center of ch. 9, full range)~~
